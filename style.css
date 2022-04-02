@@ -125,7 +125,7 @@ button {
     height: 55px;
     padding-top: 24px;
     padding-left: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 42px;
 }
 
 .border {
@@ -150,4 +150,30 @@ button {
     line-height: 22px;
     text-align: right;
     color: #FFFFFF;
+}
+
+.highscores {
+    background-image: url("/img/bg\ for\ menu.png");
+    width: 360px;
+    height: 640px;
+    left: 0px;
+    top: 0px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.text__info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__info__field {
+    width: 227.5px;
+    background-size: 20px;
+    border-bottom: 2px solid #BFC0C5;
+    padding-left: 32px;
+    padding-bottom: 12px;
+    color: white;
 }
