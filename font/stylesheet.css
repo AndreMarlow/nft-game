@@ -1,12 +1,7 @@
 @font-face {
     font-family: 'Labor Union';
     src: url('LaborUnion-Regular.eot');
-    src: local('Labor Union Regular'), local('LaborUnion-Regular'),
-        url('LaborUnion-Regular.eot?#iefix') format('embedded-opentype'),
-        url('LaborUnion-Regular.woff2') format('woff2'),
-        url('LaborUnion-Regular.woff') format('woff'),
-        url('LaborUnion-Regular.ttf') format('truetype');
+    src: local('Labor Union Regular'), local('LaborUnion-Regular'), url('LaborUnion-Regular.eot?#iefix') format('embedded-opentype'), url('LaborUnion-Regular.woff2') format('woff2'), url('LaborUnion-Regular.woff') format('woff'), url('LaborUnion-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-

@@ -216,3 +216,31 @@ button {
     top: 0px;
     border-radius: 9px;
 }
+
+.delete__highscores {
+    width: 360px;
+    height: 640px;
+    left: 0px;
+    top: 0px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.delete__highscores img {
+    opacity: .7;
+}
+
+.delete_high {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 22px;
+    margin-left: 49px;
+    height: 78px;
+    width: 260px;
+    left: 0px;
+    top: 0px;
+    border-radius: 9px;
+}
