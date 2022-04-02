@@ -201,3 +201,18 @@ button {
     padding-left: 32px;
     padding-bottom: 12px;
 }
+
+.delete {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 22px;
+    margin-left: 49px;
+    height: 78px;
+    width: 260px;
+    left: 0px;
+    top: 0px;
+    border-radius: 9px;
+}
