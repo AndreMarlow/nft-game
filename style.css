@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+}
+
+button {
+    background: #4B4CD8;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+/* Стили для переключателей  */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 28px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4647A0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    top: 3px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.input:checked+.slider {
+    background: #CFCFCF;
+}
+
+.input:focus+.slider {
+    box-shadow: 0 0 1px #CFCFCF;
+}
+
+.input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* round */
+
+.slider.round {
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+.slider.round:before {
+    border-radius: 5px;
+}
+
+
+/* конец стилей переключателей  */
+
+.menuEn {
+    background-image: url("/img/bg\ for\ menu.png");
+    width: 360px;
+    height: 640px;
+    left: 0px;
+    top: 0px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.menuEn img {
+    padding-top: 45px;
+    height: 212.5px;
+    left: -39px;
+    top: 45px;
+}
+
+.menuEn button {
+    width: 260px;
+    height: 78px;
+    left: 50px;
+    top: 289px;
+    margin: 24px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 52px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.settingsEn {
+    background-image: url("/img/bg\ for\ menu.png");
+    width: 360px;
+    height: 640px;
+    left: 0px;
+    top: 0px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.recta {
+    width: 60px;
+    height: 55px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.border {
+    background: url("img/Rectangle\ 18.svg") no-repeat center;
+}
+
+.setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.lang_siz {
+    padding-top: 72px;
+}
+
+.language__text {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+}
