@@ -9,6 +9,7 @@ button {
     border-radius: 9px;
     color: #FFFFFF;
     font-weight: 400;
+    cursor: pointer;
 }
 
 
@@ -80,7 +81,7 @@ button {
 /* конец стилей переключателей  */
 
 .menuEn {
-    background-image: url("/img/bg\ for\ menu.png");
+    background-image: url("/img/bg-for-menu.png");
     width: 360px;
     height: 640px;
     left: 0px;
@@ -111,7 +112,7 @@ button {
 }
 
 .settingsEn {
-    background-image: url("/img/bg\ for\ menu.png");
+    background-image: url("/img/bg-for-menu.png");
     width: 360px;
     height: 640px;
     left: 0px;
@@ -126,10 +127,15 @@ button {
     padding-top: 24px;
     padding-left: 24px;
     padding-bottom: 42px;
+    cursor: pointer;
+}
+
+.flag__f {
+    cursor: pointer;
 }
 
 .border {
-    background: url("img/Rectangle\ 18.svg") no-repeat center;
+    background: url("img/Rectangle18.svg") no-repeat center;
 }
 
 .setting {
@@ -156,7 +162,7 @@ button {
 /* счет */
 
 .highscores {
-    background-image: url("/img/bg\ for\ menu.png");
+    background-image: url("/img/bg-for-menu.png");
     width: 360px;
     height: 640px;
     left: 0px;
@@ -166,7 +172,7 @@ button {
 }
 
 .text__info {
-    background: url("img/Rectangle\ 18.svg") no-repeat center;
+    background: url("img/Rectangle18.svg") no-repeat center;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -217,30 +223,25 @@ button {
     border-radius: 9px;
 }
 
-.delete__highscores {
+.delete_high {
+    background: url("img/HIGHSCORES_DELETING.png");
     width: 360px;
     height: 640px;
     left: 0px;
     top: 0px;
     margin-left: 25px;
     margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.delete__highscores img {
-    opacity: .7;
-}
-
-.delete_high {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 22px;
-    margin-left: 49px;
-    height: 78px;
-    width: 260px;
-    left: 0px;
-    top: 0px;
-    border-radius: 9px;
+.submit {
+    margin: 121px 15px 0px 10px;
+    /* margin-top: 121px;
+    margin-right: 15px; */
+    width: 108px;
+    height: 62px;
+    left: 194px;
+    top: 329px;
 }
